@@ -1,1 +1,1 @@
-FreeCodeCampProjects
+This repo holds projects needed to achieve the certifications on FreeCodeCamp, each project is designed to simply meet the requirements hence some questionable aesthetics have been implemented
