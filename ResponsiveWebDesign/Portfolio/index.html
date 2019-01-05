@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My Portfolio Site</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #welcome-section {
+            padding-top: 0px;
+            margin-top: 0px;
+            display: block;
+            height: 100vh;
+        }
+        
+        #navbar {
+            width: 100%;
+            top: 0px;
+            position: fixed;
+        }
+        
+        @media (max-width: 650px) {
+            h1 {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="welcome-section">
+            <h1> Welcome to this website </h1>
+        </section>
+        <nav id="navbar">
+            <ul>
+                <li> <a href="#projects"> Projects </a></li>
+                <li> <a href="https://github.com/jakelearman" id="profile-link" target="_blank"> A link to my github </a></li>
+            </ul>
+        </nav>
+        <section id="projects" name="projects">
+            <h1> Projects </h1>
+            <div class="project-tile">
+                <a href="https://codepen.io/jakelearman/pen/aPYYqN" target="_blank"> The source for this site is here </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
